@@ -1,0 +1,8 @@
+server:
+  port: 9081
+
+# for integration test it's a mocked service
+remote:
+  service:
+    host: localhost
+    port: 9999
